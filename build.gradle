@@ -21,6 +21,10 @@ android {
         versionName "1.0"
     }
 
+    lintOptions {
+        quiet true
+    }
+
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
